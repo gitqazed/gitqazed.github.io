@@ -1620,7 +1620,7 @@ function kernelExploit() {
    },100);
   }
   else {
-   cacheUPDtxt.innerHTML="1. Masukkan USB, lalu cabut setelah notifikasinya hilang.<br>2. Tekan X atau O (tergantung PS4) setelah Anda mencabut USB";
+   cacheUPDtxt.innerHTML="1. Masukkan USB, lalu cabut setelah notifikasinya hilang.<br>2. Tekan OK setelah Anda mencabut USB";
   
    return new Promise((resolve, reject) => {
     document.body.addEventListener('click',function(e) {
